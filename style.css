@@ -1,0 +1,13 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1440px auto;
+}
+
+.menu_navegacao {
+    align-items: center;
+    text-align: center;
+}
+
+.menu_navegacao ul li {
+    display: inline;
+}
