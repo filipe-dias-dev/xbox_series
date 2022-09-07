@@ -1,7 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
   margin: 1440px auto;
-  background: white;
+  background: rgb(9, 8, 8);
 }
 
 .logo_menu {
@@ -86,7 +86,7 @@ body {
 
 img.controle_xbox {
   max-width: 100%;
-  width: 250px;
+  width: 350px;
 }
 
 .controle_xbox {
@@ -140,3 +140,21 @@ img.img_xbox {
   max-width: 100%;
   width: 1780px;
 }
+
+.perguntas_frequentes {
+  width: 508px;
+  color: #FFFFFF;
+  line-height: 20px;
+}
+
+.titulo_perguntas {
+  color: #9bf00b;
+  line-height: 90px;
+  font-size: 48px;
+  text-align: start;
+}
+.paragrafo_respostas {
+  text-align: start;
+  margin-left: 20px;
+}
+
