@@ -62,7 +62,16 @@ body {
     text-align: center;
     line-height: 115%;
     font-weight: 600;
-    margin: 100px auto;
+    margin-top: 100px;
+}
+
+.paragrafo_pedido {
+    color: #9BF00B;
+    text-align: center;
+    height: 83px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
