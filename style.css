@@ -1,7 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 1440px auto;
-    background: black;
+    background: white
 }
 
 .logo_menu {
@@ -81,29 +81,44 @@ body {
 .controle {
     position: relative;
     display: inline-block;
-    margin: 20px 50px;
+    margin: 30px 50px;
 }
 
-img.controle_xbox, img_xbox {
+img.controle_xbox {
     max-width: 100%;
     width: 250px;
 }
 
+.controle_xbox {
+    display: flex;
+    float: inline-end;
+    bottom: 100px;
+}
+
+img.img_xbox {
+    max-width: 100%;
+    width: 1779px;
+}
+
 .titulo_controle {
-    text-align: center;
+    display: block;
+    text-align: start;
     color: #9BF00B;
     line-height: 100%;
     font-size: 54px;
     font-weight: 600;
-    margin: 30px 0px;
+    float: inline-start;
 }
 
 .paragrafo_controle {
+    position: relative;
+    display: block;
     text-align: center;
     color: white;
     font-size: 24px;
     line-height: 170%;
     color: #C0C0C0;
+    float: left;
 }
 
 
