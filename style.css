@@ -3,15 +3,38 @@ body {
     margin: 1440px auto;
 }
 
+header {
+    background-color: red;
+}
+
 .menu_navegacao {
+    display: flex;
     align-items: center;
     text-align: center;
+    background-color: red;
+    justify-content: center
 }
 
 .menu_navegacao ul li {
-    display: inline;
+    display: flex;
+    position: relative;
+    display: inline-block;
     font-size: 17px;
     line-height: 21px;
     font-weight: 600;
     margin: 0px 5px ;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.img_logo {
+        display: block;
+        text-align: center;
+        width: 74px;
+        position: relative;
+        
 }
