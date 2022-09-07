@@ -58,7 +58,7 @@ body {
 
 .titulo_principal {
     color: #FFFFFF;
-    font-size: 72px;
+    font-size: 62px;
     text-align: center;
     line-height: 115%;
     font-weight: 600;
@@ -76,6 +76,23 @@ body {
 
 .img_xbox {
     width: 100%;
+}
+
+.controle {
+    margin: 20px 30px;
+}
+
+img {
+    max-width: 100%;
+    width: 250px;
+}
+
+.titulo_controle {
+    color: #9BF00B;
+}
+
+.paragrafo_controle {
+    color: white;
 }
 
 
