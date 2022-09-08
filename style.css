@@ -1,30 +1,37 @@
 body {
   font-family: "Inter", sans-serif;
-  margin: 1440px auto;
+  margin: 1790px auto;
   background: rgb(9, 8, 8);
 }
 
 .cabecalho {
-    align-items: center;
-    background:rgb(9, 8, 8);
-    display: flex;
-    justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  background: rgb(9, 8, 8);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 20px;
+}
+
+.menu_ista {
+  display: inline-block;
 }
 
 .logo {
   display: flex;
-
+  position: relative;
+  width: 120px;
+  padding-left: 100px;
 }
 
 .menu_navegacao {
   position: relative;
   display: flex;
   align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .menu {
@@ -33,16 +40,16 @@ body {
 }
 
 .menu_navegacao ul li {
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   font-size: 11px;
   line-height: 35px;
   font-weight: 600;
-  margin: 0px 7px;
   color: white;
   background: rgba(103, 103, 103, 0.39);
   border-radius: 50px;
-  padding: 6px 10px;
+  padding: 10px 10px;
+  margin-left: 5px;
 }
 
 .button_disponibilidade {
@@ -50,6 +57,7 @@ body {
   position: relative;
   justify-content: center;
   padding: 20px 0;
+  margin-left: 55px;
 }
 
 .button_menu {
@@ -61,6 +69,10 @@ body {
 }
 
 /* MAIN */
+
+main {
+  margin: auto 20px;
+}
 
 .titulo_principal {
   color: #ffffff;
@@ -80,16 +92,6 @@ body {
   font-weight: 600;
 }
 
-.img_xbox {
-  width: 100%;
-}
-
-.controle {
-  position: relative;
-  display: inline-block;
-  margin: 30px 50px;
-}
-
 img.controle_xbox {
   max-width: 100%;
   width: 350px;
@@ -103,33 +105,38 @@ img.controle_xbox {
 
 img.img_xbox {
   max-width: 100%;
-  width: 1780px;
+  width: 1790px;
+  margin: auto;
 }
 
 .titulo_controle {
-  display: block;
-  text-align: start;
+  position: relative;
+  display: flex;
   color: #9bf00b;
-  line-height: 100%;
-  font-size: 54px;
+  text-align: center;
+  line-height: 170%;
+  font-size: 38px;
   font-weight: 600;
-  float: inline-start;
+  float: inline-end;
+  margin-top: 40px;
 }
 
 .paragrafo_controle {
   position: relative;
-  display: block;
+  display: flex;
   text-align: center;
   color: white;
   font-size: 24px;
   line-height: 170%;
   color: #c0c0c0;
   float: left;
+  margin: 50px auto;
 }
 
 .img_games {
   position: relative;
   display: inline-block;
+  margin: 50px auto;
 }
 
 .img_games ul {
@@ -146,21 +153,3 @@ img.img_xbox {
   max-width: 100%;
   width: 1780px;
 }
-
-.perguntas_frequentes {
-  width: 508px;
-  color: #FFFFFF;
-  line-height: 20px;
-}
-
-.titulo_perguntas {
-  color: #9bf00b;
-  line-height: 90px;
-  font-size: 48px;
-  text-align: start;
-}
-.paragrafo_respostas {
-  text-align: start;
-  margin-left: 20px;
-}
-
