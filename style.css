@@ -135,13 +135,14 @@ img.img_xbox {
 
 .img_games {
   position: relative;
-  display: inline-block;
-  margin: 50px auto;
+  display: flex;
+  margin: 100px auto;
 }
 
 .img_games ul {
   display: flex;
-  position: static;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .img_games ul li {
@@ -149,7 +150,7 @@ img.img_xbox {
   position: relative;
 }
 
-.img_games img {
-  max-width: 100%;
-  width: 1780px;
+.imagens_games {
+  width: 100%;
+  max-width: 420px;
 }
