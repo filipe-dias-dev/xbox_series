@@ -153,4 +153,34 @@ img.img_xbox {
 .imagens_games {
   width: 100%;
   max-width: 420px;
+  opacity: 80%;
+}
+
+.texto_perguntas {
+  display: inline-block;
+  position: relative;
+  
+  
+}
+
+.titulo_perguntas {
+  display: flex;;
+  color: #9bf00b;
+  font-size: 54px;
+  margin-bottom: 30px;
+}
+
+.paragrafo_pergunta {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.paragrafo_resposta {
+  color: #c0c0c0;
+  font-size: 18px;
+}
+
+#linha {
+  opacity: 40%;
 }
