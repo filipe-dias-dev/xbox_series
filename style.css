@@ -159,12 +159,10 @@ img.img_xbox {
 .texto_perguntas {
   display: inline-block;
   position: relative;
-  
-  
 }
 
 .titulo_perguntas {
-  display: flex;;
+  display: flex;
   color: #9bf00b;
   font-size: 54px;
   margin-bottom: 30px;
@@ -190,12 +188,18 @@ img.img_xbox {
   display: flex;
   position: relative;
   justify-content: center;
-  align-items: center;
-  margin: 50px auto;
 }
 
-.rodape p {
+.rodape ul li {
   color: #c0c0c0;
   margin: 20px;
-  padding-left: 50px;
+  color: #c0c0c0;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.rodape ul {
+  display: flex;
+  position: relative;
+  align-items: center;
 }
