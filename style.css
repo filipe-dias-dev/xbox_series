@@ -185,3 +185,17 @@ img.img_xbox {
 #linha {
   opacity: 40%;
 }
+
+.rodape {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.rodape p {
+  color: #c0c0c0;
+  margin: 20px;
+  padding-left: 50px;
+}
