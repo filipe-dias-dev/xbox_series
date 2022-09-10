@@ -100,20 +100,11 @@ body {
   }
 }
 
-
-
-img.controle_xbox {
-  max-width: 100%;
-  width: 350px;
-}
-
-.controle_xbox {
+.descricao-2 {
   display: flex;
-  float: inline-end;
-  bottom: 100px;
 }
 
-.titulo_controle {
+.titulo__controle {
   position: relative;
   display: flex;
   color: #9bf00b;
@@ -125,7 +116,7 @@ img.controle_xbox {
   margin-top: 40px;
 }
 
-.paragrafo_controle {
+.descricao__controle {
   position: relative;
   display: flex;
   text-align: center;
@@ -135,6 +126,17 @@ img.controle_xbox {
   color: #c0c0c0;
   float: left;
   margin: 50px auto;
+}
+
+img.controle_xbox {
+  max-width: 100%;
+  width: 350px;
+}
+
+.controle_xbox {
+  display: flex;
+  float: inline-end;
+  bottom: 100px;
 }
 
 .img_games {
