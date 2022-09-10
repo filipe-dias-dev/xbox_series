@@ -2,7 +2,6 @@ body {
   background: rgb(9, 8, 8);
 }
 
-/* Menu navegação */
 .cabecalho {
   display: flex;
   align-items: center;
@@ -15,31 +14,31 @@ body {
   margin-top: 20px;
 }
 
-.menu__ista {
-  display: inline-block;
-}
-
-.imagem__logo {
+.cabecalho__logo {
   display: flex;
   position: relative;
   width: 120px;
   padding-left: 100px;
 }
 
-.menu__navegacao {
+.navegacao {
   position: relative;
   display: flex;
   align-items: center;
   margin: 20px auto;
 }
 
-.menu {
-  color: white;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+.navegacao__ista {
+  display: inline-block;
 }
 
-.menu__navegacao ul li {
+.navegacao__menu {
+  color: white;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navegacao ul li {
   display: inline-flex;
   position: relative;
   font-size: 11px;
@@ -52,7 +51,7 @@ body {
   margin-left: 5px;
 }
 
-.button {
+.botao {
   display: flex;
   position: relative;
   justify-content: center;
@@ -63,9 +62,7 @@ body {
 
 .button__disponibilidade {
   background-color: #9bf00b;
-  font-family: Arial, Helvetica, sans-serif;
   padding: 21px 30px;
-  font-weight: 700;
   width: 224px;
   border: none;
   border-radius: 1px;
@@ -74,113 +71,107 @@ body {
 
 /* MAIN */
 
-.descricao__titulo {
+.titulo__principal {
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 62px;
   text-align: center;
   line-height: 115%;
   font-weight: 600;
   margin-top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.descricao__paragrafo {
+.paragrafo__pedido {
   color: #9bf00b;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   height: 83px;
   margin-top: 20px;
   font-size: 18px;
   font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media screen and (width: 0px) {
+@media screen and (min-width: 0px) {
   .imagem__xbox {
-    width: 760px;
+    width: 100%
   }
 }
 
-.descricao-2 {
-  display: flex;
-}
-
-.titulo__controle {
+.controle__titulo {
   position: relative;
   display: flex;
   color: #9bf00b;
-  text-align: center;
   line-height: 170%;
   font-size: 38px;
   font-weight: 600;
   float: inline-end;
-  margin-top: 40px;
+  text-align: center;
 }
 
-.descricao__controle {
+.controle__paragrafo {
   position: relative;
   display: flex;
-  text-align: center;
   color: white;
   font-size: 24px;
   line-height: 170%;
   color: #c0c0c0;
   float: left;
-  margin: 50px auto;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
 }
 
-img.controle_xbox {
-  max-width: 100%;
-  width: 350px;
+@media  screen and (min-width: 0px){
+  .controle__imagem {
+    max-width: 100%;
+  }  
 }
 
-.controle_xbox {
-  display: flex;
-  float: inline-end;
-  bottom: 100px;
-}
-
-.img_games {
+.imagem-games {
   position: relative;
   display: flex;
   margin: 100px auto;
 }
 
-.img_games ul {
+.imagem-games ul {
   display: flex;
   flex-wrap: wrap;
   position: relative;
 }
 
-.img_games ul li {
+.imagem-games ul li {
   display: flex;
   position: relative;
+  width: 25%;
 }
 
-.imagens_games {
-  width: 100%;
-  max-width: 420px;
-  opacity: 80%;
+@media screen and (min-width: 0px){
+  .imagens__games {
+    width: 100%;
+  }
 }
 
-.texto_perguntas {
-  display: inline-block;
-  position: relative;
-}
-
-.titulo_perguntas {
+.titulo-perguntas {
   display: flex;
   color: #9bf00b;
   font-size: 54px;
   margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.paragrafo_pergunta {
+
+.descricao-perguntas {
+  display: inline-block;
+  position: relative;
+}
+
+.descricao__pergunta {
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.paragrafo_resposta {
+.descricao__resposta {
   color: #c0c0c0;
   font-size: 18px;
   margin: 20px auto;
