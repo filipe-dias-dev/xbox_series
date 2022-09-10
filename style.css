@@ -35,7 +35,7 @@ body {
 .navegacao__menu {
   color: white;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .navegacao ul li {
@@ -78,7 +78,7 @@ body {
   line-height: 115%;
   font-weight: 600;
   margin-top: 100px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .paragrafo__pedido {
@@ -88,45 +88,45 @@ body {
   margin-top: 20px;
   font-size: 18px;
   font-weight: 600;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 @media screen and (min-width: 0px) {
   .imagem__xbox {
-    width: 100%
+    width: 100%;
   }
 }
 
 .controle__titulo {
   position: relative;
-  display: flex;
   color: #9bf00b;
   line-height: 170%;
   font-size: 38px;
   font-weight: 600;
   float: inline-end;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .controle__paragrafo {
   position: relative;
-  display: flex;
   color: white;
   font-size: 24px;
   line-height: 170%;
   color: #c0c0c0;
-  float: left;
-  padding-top: 20px;
-  width: 100%;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-@media  screen and (min-width: 0px){
+@media screen and (min-width: 0px) {
   .controle__imagem {
     max-width: 100%;
-  }  
+  }
+}
+
+.imagem_control {
+  text-align: center;
+  margin: 80px 10px;
 }
 
 .imagem-games {
@@ -147,7 +147,7 @@ body {
   width: 25%;
 }
 
-@media screen and (min-width: 0px){
+@media screen and (min-width: 0px) {
   .imagens__games {
     width: 100%;
   }
@@ -158,14 +158,13 @@ body {
   color: #9bf00b;
   font-size: 54px;
   margin-bottom: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 
 .descricao-perguntas {
   display: inline-block;
   position: relative;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .descricao__pergunta {
@@ -197,7 +196,7 @@ body {
   color: #c0c0c0;
   flex-wrap: wrap;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .rodape ul {
