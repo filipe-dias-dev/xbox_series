@@ -190,6 +190,7 @@ img.img_xbox {
   display: flex;
   position: relative;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 .rodape ul li {
