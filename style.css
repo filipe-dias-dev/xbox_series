@@ -61,6 +61,7 @@ body {
 }
 
 .button__disponibilidade {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #9bf00b;
   padding: 21px 30px;
   width: 224px;
@@ -71,8 +72,9 @@ body {
 
 /* MAIN */
 
-.titulo_principal {
+.descricao__titulo {
   color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 62px;
   text-align: center;
   line-height: 115%;
@@ -80,8 +82,9 @@ body {
   margin-top: 100px;
 }
 
-.paragrafo_pedido {
+.descricao__paragrafo {
   color: #9bf00b;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   height: 83px;
   margin-top: 20px;
