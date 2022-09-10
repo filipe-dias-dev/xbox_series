@@ -1,6 +1,4 @@
 body {
-  font-family: "Inter", sans-serif;
-  margin: 1790px auto;
   background: rgb(9, 8, 8);
 }
 
@@ -20,7 +18,7 @@ body {
   display: inline-block;
 }
 
-.logo {
+.imagem__logo {
   display: flex;
   position: relative;
   width: 120px;
@@ -107,8 +105,7 @@ img.controle_xbox {
 
 img.img_xbox {
   max-width: 100%;
-  width: 1790px;
-  margin: auto;
+  width: 100%;
 }
 
 .titulo_controle {
