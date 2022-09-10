@@ -2,6 +2,7 @@ body {
   background: rgb(9, 8, 8);
 }
 
+/* Menu navegação */
 .cabecalho {
   display: flex;
   align-items: center;
@@ -14,7 +15,7 @@ body {
   margin-top: 20px;
 }
 
-.menu_ista {
+.menu__ista {
   display: inline-block;
 }
 
@@ -25,7 +26,7 @@ body {
   padding-left: 100px;
 }
 
-.menu_navegacao {
+.menu__navegacao {
   position: relative;
   display: flex;
   align-items: center;
@@ -37,7 +38,7 @@ body {
   text-decoration: none;
 }
 
-.menu_navegacao ul li {
+.menu__navegacao ul li {
   display: inline-flex;
   position: relative;
   font-size: 11px;
@@ -50,7 +51,7 @@ body {
   margin-left: 5px;
 }
 
-.button_disponibilidade {
+.button {
   display: flex;
   position: relative;
   justify-content: center;
@@ -59,7 +60,7 @@ body {
   cursor: pointer;
 }
 
-.button_menu {
+.button__disponibilidade {
   background-color: #9bf00b;
   padding: 21px 30px;
   width: 224px;
@@ -69,10 +70,6 @@ body {
 }
 
 /* MAIN */
-
-main {
-  margin: auto 20px;
-}
 
 .titulo_principal {
   color: #ffffff;
