@@ -134,6 +134,10 @@ body {
   }
 }
 
+.controle__imagem:hover {
+  transform: scale(1.5);
+}
+
 .imagem_control {
   text-align: center;
   margin: 80px 10px;
