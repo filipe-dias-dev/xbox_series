@@ -135,7 +135,8 @@ body {
 }
 
 .controle__imagem:hover {
-  transform: scale(1.5);
+  transform: scale(0.5);
+  transition-duration: 2s;
 }
 
 .imagem_control {
