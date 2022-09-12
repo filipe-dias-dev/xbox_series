@@ -107,6 +107,10 @@ body {
   margin: 80px auto;
 }
 
+h2::first-letter {
+  color: #c0c0c0;
+}
+
 .controle__titulo {
   position: relative;
   color: #9bf00b;
