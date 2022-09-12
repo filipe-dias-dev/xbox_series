@@ -67,6 +67,7 @@ body {
   border: none;
   border-radius: 1px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 /* MAIN */
